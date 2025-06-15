@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Functions!!</title>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h1>Let's do some functions</h1>
+    <p>Function is a reusable block of code that performs a specific task.</p>
+
+    <script>
+      let userInput = prompt("What is your name?");
+      function newGreet(userInput) {
+        if (userInput == "") {
+          console.log("And your name is?");
+        } else {
+          console.log(`Hello ${userInput}`);
+        }
+      }
+      newGreet(userInput);
+    </script>
+  </body>
+</html>
